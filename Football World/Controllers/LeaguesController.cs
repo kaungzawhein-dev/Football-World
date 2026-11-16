@@ -94,6 +94,7 @@ namespace FootballWorld.Controllers
         }
 
         // DELETE: api/leagues/1
+        //Delete endpoint with sort delete support.
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
